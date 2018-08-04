@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         app:titleTextColor="@color/colorWhite"
+        android:textAlignment="center"
         android:background="@color/colorBlack"
         android:elevation="8dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
@@ -22,8 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/toolbar"
-        android:layout_above="@+id/tab_bottom"
-        android:padding="16dp"/>
+        android:layout_above="@+id/tab_bottom"/>
 
     <!--Tab bottom-->
     <android.support.design.widget.BottomNavigationView
